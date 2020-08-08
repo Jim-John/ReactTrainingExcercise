@@ -1,7 +1,13 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="../css/loginCSS.css">
-
+<script>
+function login()
+{
+ 
+  window.location.href="./viewClaim.html";
+}
+</script>
 </head>
 <div class="login-page">
     <div class="form">
@@ -9,7 +15,7 @@
       <form class="login-form">
         <input type="text" placeholder="username"/>
         <input type="password" placeholder="password"/>
-        <button onclick="window.location=viewClaim.html">login</button>
+        <button type="button"  onclick="login()">login</button>
       
       </form>
     </div>
